@@ -59,8 +59,9 @@ require_once 'lib/swiftmailer/swift_required.php';
 
   // Create the Transport
   $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 587, 'tls')
-    ->setUsername('tippingpoint@northlandchurch.net')
-    ->setPassword('C0mmunic8')
+    // Needs to be changed to the correct info
+    ->setUsername('XXXXXXXXX@northlandchurch.net')
+    ->setPassword('XXXXXXXXX')
     ;
 
   // Message variables:
